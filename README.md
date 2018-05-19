@@ -1,3 +1,7 @@
+## Intro
+The original project is https://github.com/cncd/pipeline, which is a Go package implements a container-based pipeline engine, Now I build it with docker
+
+## Usage
 Compile the yaml to the intermediate representation:
 
 ```
