@@ -1,0 +1,15 @@
+workspace:
+  base: /go
+  path: src/github.com/jamesqin-cn/docker-pipec
+
+clone:
+  git:
+    image: alpine
+    commands:
+      - echo hello git step
+
+pipeline:
+  build:
+    image: alpine
+    commands:
+      - echo hello build step
